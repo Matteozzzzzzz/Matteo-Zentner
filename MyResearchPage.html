@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- STEP ONE: SET UP -->
+<!-- Add the bootstrap link up here AND the script down below -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+<!-- Change the title to include your name!-->
+    <title>Matteo Zentner's Initial Research</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="InitialResearchPage.html">Initial Reasearch</a></li>
+              <li><a class="dropdown-item" href="CaseStudyPage.html">Case Study page</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- STEP TWO: CUSTOMIZE THE LOOK-->
+<!-- Make adjustments to the display size, text color, background color, border, text alignment, etc... -->
+<!-- Use 4 different types of bootstrap classes -->
+<!-- The best way to do this is to search using the navbar. Put in a term OR a class tag -->
+<!-- A few pages that should be helpful to start out with.... 
+  Use https://getbootstrap.com/docs/5.2/content/typography/ to adjust the display (size, etc)
+  Use https://getbootstrap.com/docs/5.2/customize/color/ to adjust color attributes 
+  (there's also different pages with background color, opacity, etc )-->  
+<div class="container text-center">
+<!-- To begin to understand how the following "grid" works, check out this link. This is the code we have below
+https://getbootstrap.com/docs/5.2/layout/grid/#equal-width  -->
+    <div class="row">
+      <div class="col text-bg-primary border border-success-3">
+        Problem statement
+      </div>
+      <div class="col text-bg-secondary">
+        Need statement
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-decoration-line-through text-bg-warning">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      </div>
+      <div class=" col fs-3 text-bg-info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      </div>
+      <div class="col fst-italic text-bg-success">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      </div>
+    </div>
+  </div>
+<!-- Add the bootstrap script down here -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
